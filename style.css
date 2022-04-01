@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: "Nunito Sans", sans-serif; */
+  }
+  body {
+    color: rgba(36, 57, 104, 255);
+    font-family: "Lexend", sans-serif;
+  }
+  #navbar {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(206, 5, 5, 255);
+  }
+  #navLeftContent {
+    margin: 2px 800px 2px 130px;
+  }
+  #navLeftContent img {
+    border-radius: 50%;
+  }
+  #navRightContent {
+    display: flex;
+    margin: auto;
+  }
+  #navRightContent h5 {
+    margin: auto;
+    padding: 10px 15px;
+    color: white;
+  }
+  #createAcc {
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  #mainContent {
+    margin: 30px 130px;
+  }
+  #mainContentHeading h1 {
+    /* color: blue; */
+    margin: 30px 0px;
+  }
+  #mainContentBody {
+    display: flex;
+  }
+  #mainContentBodyLeftContent {
+    /* border: 1px solid; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    line-height: 2;
+    padding: 30px 60px;
+  }
+  #mainContentBodyRightContent {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-left: 50px;
+  }
+  hr {
+    height: 0.5px;
+    background-color: rgb(228, 226, 226);
+    border: none;
+  }
+  #mainContentBodyRightContent img {
+    border-radius: 10px;
+  }
+  .mainContentBodyRightContentItem {
+    /* border: 1px solid black; */
+    margin: 0px 50px 30px;
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    border-radius: 5px;
+  }
+  .items {
+    display: flex;
+    padding: 20px 0px;
+  }
+  .itemName {
+    margin: 15px;
+  }
+  .itemPrice {
+    margin: 20px 0px;
+  }
+  #pagination {
+    /* align-items: center; */
+    margin: 50px;
+    font-size: 20px;
+    text-align: center;
+  }
+  #pagination a {
+    text-decoration: none;
+    border: 1px solid rgba(36, 57, 104, 255);
+    border-radius: 5px;
+    color: rgba(36, 57, 104, 255);
+    padding: 5px 10px;
+  }
+  #pagination .active {
+    background-color: rgba(36, 57, 104, 255);
+    color: aliceblue;
+  }
